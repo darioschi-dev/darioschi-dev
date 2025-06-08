@@ -10,42 +10,57 @@ Qui raccolgo una selezione dei miei progetti open source, che spaziano tra svilu
 ### 🔐 [cassaforte-arduino](https://github.com/darioschi-dev/cassaforte-arduino)
 Serratura elettronica basata su Arduino Uno con tastierino 4x4, buzzer, EEPROM e solenoide.
 
-> Arduino | Keypad | EEPROM | Buzzer | Solenoide
+![Arduino](https://img.shields.io/badge/board-arduino-blue)
+![Keypad](https://img.shields.io/badge/input-keypad-9cf)
+![EEPROM](https://img.shields.io/badge/storage-eeprom-orange)
+![Solenoide](https://img.shields.io/badge/lock-solenoid-success)
+![Sound](https://img.shields.io/badge/sound-buzzer-lightgrey)
 
 ---
 
 ### 🌱 [bonsai-iot](https://github.com/darioschi-dev/bonsai-iot)
 Sistema di irrigazione automatica per bonsai alimentato a pannello solare con ESP32 e sensore di umidità.
 
-> ESP32 | Sensore umidità | Pannello solare | Batteria Li-Ion
+![ESP32](https://img.shields.io/badge/mcu-esp32-blue)
+![Sensor](https://img.shields.io/badge/sensor-soil--moisture-green)
+![Battery](https://img.shields.io/badge/power-li--ion-yellow)
+![Solar](https://img.shields.io/badge/energy-solar-brightgreen)
 
 ---
 
 ### 🧑‍💼 [sei-website](https://github.com/darioschi-dev/sei-website)
 Sito ufficiale di SEI srl con contenuti dinamici gestiti via Sanity CMS, sviluppato in Next.js.
 
-> Next.js | Sanity | Tailwind CSS | SEO Ready
+![Next.js](https://img.shields.io/badge/framework-next.js-black)
+![Sanity](https://img.shields.io/badge/cms-sanity-f03)
+![Tailwind](https://img.shields.io/badge/ui-tailwindcss-38bdf8)
+![SEO](https://img.shields.io/badge/seo-optimized-success)
 
 ---
 
 ### 📡 [opcua-rust-client](https://github.com/darioschi-dev/opcua-rust-client)
 Prototipo client OPC-UA scritto in Rust per testare connessione a broker industriali.
 
-> Rust | OPC-UA | Broker MQTT
+![Rust](https://img.shields.io/badge/lang-rust-orange)
+![OPC-UA](https://img.shields.io/badge/protocol-opcua-blueviolet)
+![MQTT](https://img.shields.io/badge/broker-mqtt-yellow)
 
 ---
 
 ### 🤖 [telegram-search-bot](https://github.com/darioschi-dev/telegram-search-bot)
 Bot Telegram per effettuare ricerche all’interno di canali pubblici.
 
-> Telegram Bot | Python
+![Telegram](https://img.shields.io/badge/platform-telegram-0088cc)
+![Python](https://img.shields.io/badge/lang-python-blue)
 
 ---
 
 ### 💬 [support-credit-system](https://github.com/darioschi-dev/support-credit-system)
 Sistema in Docker per gestire richieste di supporto e pacchetti ore tramite backend Symfony.
 
-> Docker | Symfony | Ticketing | PayPal | Satispay
+![Docker](https://img.shields.io/badge/env-docker-blue)
+![Symfony](https://img.shields.io/badge/backend-symfony-black)
+![Payments](https://img.shields.io/badge/payments-paypal--satispay-red)
 
 ---
 

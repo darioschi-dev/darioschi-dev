@@ -84,3 +84,4 @@ Sistema in Docker per gestire richieste di supporto e pacchetti ore tramite back
 
 ![Made with ❤️ by Dario Schiavano](https://img.shields.io/badge/Made%20with-%E2%9D%A4%EF%B8%8F%20by%20Dario%20Schiavano-blue)
 
+<!-- Forza aggiornamento -->

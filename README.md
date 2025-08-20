@@ -28,6 +28,12 @@ Sistema di irrigazione automatica per bonsai alimentato a pannello solare con ES
 
 ---
 
+🌿 Bonsai MQTT Dashboard
+Sistema completo per il controllo e monitoraggio remoto di un bonsai tramite ESP32 e MQTT.
+Consente di accendere/spegnere la pompa, monitorare stato e dati (umidità, temperatura, batteria, segnale WiFi) e gestire aggiornamenti firmware OTA in modo sicuro e tracciabile.
+
+---
+
 ### 🧑‍💼 [sei-website](https://github.com/darioschi-dev/sei-website)
 Sito ufficiale di SEI srl con contenuti dinamici gestiti via Sanity CMS, sviluppato in Next.js.
 

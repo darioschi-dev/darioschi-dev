@@ -80,7 +80,7 @@ Sistema in Docker per gestire richieste di supporto e pacchetti ore tramite back
 ## 📫 Contatti
 
 - 📧 Email: [dario.schiavano@gmail.com](mailto:dario.schiavano@gmail.com)
-- 💼 LinkedIn: [linkedin.com/in/dario-schiavano-65a7b41b6](https://www.linkedin.com/in/dario-schiavano-65a7b41b6/)
+- 💼 LinkedIn: [linkedin.com/in/darioschiavano](https://www.linkedin.com/in/darioschiavano/)
 - 🧑‍💻 GitHub: [github.com/darioschi-dev](https://github.com/darioschi-dev)
 
 ---

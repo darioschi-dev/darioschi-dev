@@ -1,79 +1,87 @@
 # 👋 Ciao! Sono Dario Schiavano
 
-Benvenuto nel mio portfolio GitHub.  
-Qui raccolgo una selezione dei miei progetti open source, che spaziano tra sviluppo full stack, elettronica e IoT.
+IoT & Full Stack Developer | Hardware | Embedded Systems | Backend Services
+
+Sviluppo soluzioni integrate che combinano **embedded systems**, **IoT** e **backend services**. Appassionato di automazione e prototipi innovative.
 
 ---
 
-## 🧰 Progetti in evidenza
+## 🏗️ Stack Tecnologico
 
-### 🔐 [cassaforte-arduino](https://github.com/darioschi-dev/cassaforte-arduino)
-Serratura elettronica basata su Arduino Uno con tastierino 4x4, buzzer, EEPROM e solenoide.
+**Microcontrollori & Hardware:**
+![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=Arduino)
+![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge&logo=Espressif)
 
-![Arduino](https://img.shields.io/badge/board-arduino-blue)
-![Keypad](https://img.shields.io/badge/input-keypad-9cf)
-![EEPROM](https://img.shields.io/badge/storage-eeprom-orange)
-![Solenoide](https://img.shields.io/badge/lock-solenoid-success)
-![Sound](https://img.shields.io/badge/sound-buzzer-lightgrey)
+**Linguaggi & Frameworks:**
+![Rust](https://img.shields.io/badge/Rust-CE4E1A?style=for-the-badge&logo=Rust)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=PHP)
+
+**Protocolli & Infrastrutture:**
+![MQTT](https://img.shields.io/badge/MQTT-660066?style=for-the-badge)
+![OPC--UA](https://img.shields.io/badge/OPC--UA-0066CC?style=for-the-badge)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=Docker)
 
 ---
 
-### 🌱 [bonsai-iot](https://github.com/darioschi-dev/bonsai-iot)
-Sistema di irrigazione automatica per bonsai alimentato a pannello solare con ESP32 e sensore di umidità.
+## 🔧 Progetti Pubblici
 
-![ESP32](https://img.shields.io/badge/mcu-esp32-blue)
+### 🌱 IoT & Embedded
+
+#### 🚀 [bonsai-firmware](https://github.com/darioschi-dev/bonsai-firmware)
+Sistema di irrigazione automatica per bonsai con **ESP32** e sensore di umidità.  
+Progetto completo da firmware a sensori, ottimizzato per batterie e pannello solare.
+
+![ESP32](https://img.shields.io/badge/MCU-ESP32-blue)
 ![Sensor](https://img.shields.io/badge/sensor-soil--moisture-green)
-![Battery](https://img.shields.io/badge/power-li--ion-yellow)
-![Solar](https://img.shields.io/badge/energy-solar-brightgreen)
+![MQTT](https://img.shields.io/badge/protocol-MQTT-yellow)
+![OTA](https://img.shields.io/badge/OTA-enabled-success)
 
 ---
 
-### 🌿  [bonsai-mqtt-dashboard](https://github.com/darioschi-dev/bonsai-mqtt-dashboard)
-Sistema completo per il controllo e monitoraggio remoto di un bonsai tramite **ESP32** e **MQTT**.  
-Consente di accendere/spegnere la pompa, monitorare stato e dati (umidità, temperatura, batteria, segnale WiFi) e gestire aggiornamenti firmware **OTA** in modo sicuro e tracciabile.
+#### 🔐 [cassaforte-arduino](https://github.com/darioschi-dev/cassaforte-arduino)
+Serratura elettronica intelligente basata su **Arduino Uno**.  
+Tastierino 4x4, EEPROM per memorizzazione PIN, controllo solenoide e feedback acustico.
+
+![Arduino](https://img.shields.io/badge/MCU-Arduino--Uno-blue)
+![Keypad](https://img.shields.io/badge/input-4x4--keypad-9cf)
+![Storage](https://img.shields.io/badge/storage-EEPROM-orange)
+![Actuator](https://img.shields.io/badge/actuator-solenoid-success)
 
 ---
 
-### 🧑‍💼 [sei-website](https://github.com/darioschi-dev/sei-website)
-Sito ufficiale di SEI srl con contenuti dinamici gestiti via Sanity CMS, sviluppato in Next.js.
+#### 📡 [opcua-rust-client](https://github.com/darioschi-dev/opcua-rust-client)
+Client **OPC-UA** scritto in **Rust** per connessioni industriali.  
+Prototipo per testing su broker MQTT e sistemi legacy.
 
-![Next.js](https://img.shields.io/badge/framework-next.js-black)
-![Sanity](https://img.shields.io/badge/cms-sanity-f03)
-![Tailwind](https://img.shields.io/badge/ui-tailwindcss-38bdf8)
-![SEO](https://img.shields.io/badge/seo-optimized-success)
-
----
-
-### 📡 [opcua-rust-client](https://github.com/darioschi-dev/opcua-rust-client)
-Prototipo client OPC-UA scritto in Rust per testare connessione a broker industriali.
-
-![Rust](https://img.shields.io/badge/lang-rust-orange)
-![OPC-UA](https://img.shields.io/badge/protocol-opcua-blueviolet)
-![MQTT](https://img.shields.io/badge/broker-mqtt-yellow)
+![Rust](https://img.shields.io/badge/lang-Rust-orange)
+![OPC--UA](https://img.shields.io/badge/protocol-OPC--UA-blueviolet)
+![Industrial](https://img.shields.io/badge/use--case-Industrial-red)
 
 ---
 
-### 🤖 [telegram-search-bot](https://github.com/darioschi-dev/telegram-search-bot)
-Bot Telegram per effettuare ricerche all’interno di canali pubblici.
+### 🛠️ Backend & Services
 
-![Telegram](https://img.shields.io/badge/platform-telegram-0088cc)
-![Python](https://img.shields.io/badge/lang-python-blue)
+#### 💬 [support-credit-system](https://github.com/darioschi-dev/support-credit-system)
+Sistema di gestione supporto tecnico e pacchetti ore in **Docker**.  
+Backend **Symfony**, integrazione **PayPal** e **Satispay**, dashboard per cliente e supporto.
 
----
-
-### 💬 [support-credit-system](https://github.com/darioschi-dev/support-credit-system)
-Sistema in Docker per gestire richieste di supporto e pacchetti ore tramite backend Symfony.
-
-![Docker](https://img.shields.io/badge/env-docker-blue)
-![Symfony](https://img.shields.io/badge/backend-symfony-black)
-![Payments](https://img.shields.io/badge/payments-paypal--satispay-red)
+![Docker](https://img.shields.io/badge/env-Docker-2496ED)
+![Symfony](https://img.shields.io/badge/backend-Symfony-black)
+![Payments](https://img.shields.io/badge/payments-PayPal%20%7C%20Satispay-red)
+![PHP](https://img.shields.io/badge/lang-PHP-777BB4)
 
 ---
 
-## 🧪 Altri prototipi
+### 🤖 Bots & Tools
 
-- 🧰 [`payloadcms-prototype`](https://github.com/darioschi-dev/payloadcms-prototype)
-- 🧪 [`test-rust-esp-template`](https://github.com/darioschi-dev/test-rust-esp-template)
+#### 🔍 [telegram-search-bot](https://github.com/darioschi-dev/telegram-search-bot)
+Bot **Telegram** per ricerche avanzate in canali pubblici.  
+Automazione e indicizzazione di contenuti.
+
+![Telegram](https://img.shields.io/badge/platform-Telegram-0088cc)
+![Python](https://img.shields.io/badge/lang-Python-3776AB)
+![Bot](https://img.shields.io/badge/type-Bot%20API-yellow)
 
 ---
 

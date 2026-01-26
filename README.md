@@ -13,9 +13,14 @@ Sviluppo soluzioni integrate che combinano **embedded systems**, **IoT** e **bac
 ![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge&logo=Espressif)
 
 **Linguaggi & Frameworks:**
-![Rust](https://img.shields.io/badge/Rust-CE4E1A?style=for-the-badge&logo=Rust)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python)
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=PHP)
+![Symfony](https://img.shields.io/badge/Symfony-000000?style=for-the-badge&logo=Symfony)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=Node.js)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=TypeScript)
+![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=Vue.js&logoColor=white)
+![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=Angular)
 
 **Protocolli & Infrastrutture:**
 ![MQTT](https://img.shields.io/badge/MQTT-660066?style=for-the-badge)

@@ -1,8 +1,8 @@
 # 👋 Ciao! Sono Dario Schiavano
 
-IoT & Full Stack Developer | Hardware | Embedded Systems | Backend Services
+IoT & Full Stack Developer | Embedded Systems | Backend Services | AI Tooling
 
-Sviluppo soluzioni integrate che combinano **embedded systems**, **IoT** e **backend services**. Appassionato di automazione e prototipi innovative.
+Sviluppo soluzioni integrate che combinano **embedded systems**, **IoT**, **backend services** e **automazione con agenti AI**. Negli ultimi mesi il baricentro si è spostato verso piattaforme operative per il monitoraggio di impianti, app offline-first per il campo e strumenti che rendono ripetibile il lavoro con gli agenti AI.
 
 ---
 
@@ -21,11 +21,51 @@ Sviluppo soluzioni integrate che combinano **embedded systems**, **IoT** e **bac
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=TypeScript)
 ![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=Vue.js&logoColor=white)
 ![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=Angular)
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=Flutter&logoColor=white)
 
 **Protocolli & Infrastrutture:**
 ![MQTT](https://img.shields.io/badge/MQTT-660066?style=for-the-badge)
 ![OPC--UA](https://img.shields.io/badge/OPC--UA-0066CC?style=for-the-badge)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=Docker)
+![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=for-the-badge&logo=Ansible)
+![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-A22846?style=for-the-badge&logo=RaspberryPi)
+![Cloudflare](https://img.shields.io/badge/Cloudflare%20Tunnel-F38020?style=for-the-badge&logo=Cloudflare&logoColor=white)
+![MCP](https://img.shields.io/badge/MCP-000000?style=for-the-badge)
+
+---
+
+## 🎯 Focus degli ultimi mesi
+
+Gran parte del lavoro recente vive in repository privati: qui ne descrivo l'obiettivo e le scelte tecniche, senza codice né dati.
+
+### 📡 Piattaforme operative per impianti fotovoltaici
+
+Backend **Symfony** e collector **Python** che centralizzano il monitoraggio di impianti oggi sparsi su più portali vendor: ingest di allarmi e snapshot, normalizzazione, gestione di eventi, casi operativi e ticket verso i vendor, contratti e manutenzioni, notifiche su Slack. Accanto alla piattaforma, registri operativi di dominio (manutenzioni, ricambi, incentivi, colonnine di ricarica) allineati al portale.
+
+### 📱 App offline-first per operatori di campo
+
+App **Flutter** per tecnici sul campo con architettura offline-first, affiancata da un backend gestionale e dalla documentazione dell'infrastruttura IT. Attenzione particolare a sincronizzazione, tag fisici (QR/NFC) che aprono l'azione giusta nell'app e decisioni di architettura tracciate come ADR.
+
+### 🤖 Agenti AI e tooling per il lavoro quotidiano
+
+Il filone più ampio degli ultimi mesi: rendere il lavoro con gli agenti AI **ripetibile, governato e sicuro**.
+
+- **agent-toolkit** — control plane per connector, server MCP, skill e profili, con CLI di bootstrap e verifica (doctor) per avere lo stesso ambiente su macOS e Ubuntu; routing dei modelli, regole comuni e registro di lavoro condiviso tra agenti.
+- **Connettori MCP** per Google Tasks, Passbolt (sola lettura) ed export ChatGPT: CLI, libreria Python e server MCP sullo stesso codice, gestiti con `uv`.
+- **JARVIS** — assistente personale privato: quick capture di pensieri e arricchimento con LLM locale, API FastAPI e PWA.
+
+### 🏠 Self-hosting su Raspberry Pi
+
+Applicazioni personali in produzione su Raspberry Pi, esposte con **Cloudflare Tunnel** senza aprire porte sul router:
+
+- **Ledger Home** — PWA per i conti familiari con import, categorie, dashboard ed export Excel.
+- **StudyOS** — piattaforma di studio con quiz a risposta multipla e ripetizione spaziata (SM-2), autenticazione, pannello admin e banche dati su SQLite.
+- **Personal Shopper AI** — ricerca parallela su più marketplace con ranking spiegato da LLM, con routing tra modelli cloud e fallback locale.
+- **Cluster Raspberry** — dashboard di monitoraggio e deployment automatizzato dei nodi con **Ansible** e API Node.js.
+
+### 🎙️ Strumenti desktop locali
+
+**nispa-WhisperApp** — trascrizione automatica con Whisper in locale (GPU CUDA), editor sincronizzato audio/video e strumenti batch; frontend React, backend Flask.
 
 ---
 
@@ -99,7 +139,7 @@ Automazione e indicizzazione di contenuti.
 ---
 
 🪪 **Licenza**: MIT  
-> Tutti i progetti sono open source e liberamente riutilizzabili.
+> I progetti pubblici elencati sono open source e liberamente riutilizzabili.
 
 ![Made with ❤️ by Dario Schiavano](https://img.shields.io/badge/Made%20with-%E2%9D%A4%EF%B8%8F%20by%20Dario%20Schiavano-blue)
 

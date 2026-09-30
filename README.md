@@ -1,36 +1,8 @@
-# 👋 Ciao! Sono Dario Schiavano
+# 👋 Ciao, sono Dario Schiavano
 
 IoT & Full Stack Developer | Embedded Systems | Backend Services | AI Tooling
 
 Sviluppo soluzioni integrate che combinano **embedded systems**, **IoT**, **backend services** e **automazione con agenti AI**. Negli ultimi mesi il baricentro si è spostato verso piattaforme operative per il monitoraggio di impianti, app offline-first per il campo e strumenti che rendono ripetibile il lavoro con gli agenti AI.
-
----
-
-## 🏗️ Stack Tecnologico
-
-**Microcontrollori & Hardware:**
-![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=Arduino)
-![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge&logo=Espressif)
-
-**Linguaggi & Frameworks:**
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=PHP)
-![Symfony](https://img.shields.io/badge/Symfony-000000?style=for-the-badge&logo=Symfony)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=Node.js)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=TypeScript)
-![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=Vue.js&logoColor=white)
-![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=Angular)
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=Flutter&logoColor=white)
-
-**Protocolli & Infrastrutture:**
-![MQTT](https://img.shields.io/badge/MQTT-660066?style=for-the-badge)
-![OPC--UA](https://img.shields.io/badge/OPC--UA-0066CC?style=for-the-badge)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=Docker)
-![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=for-the-badge&logo=Ansible)
-![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-A22846?style=for-the-badge&logo=RaspberryPi)
-![Cloudflare](https://img.shields.io/badge/Cloudflare%20Tunnel-F38020?style=for-the-badge&logo=Cloudflare&logoColor=white)
-![MCP](https://img.shields.io/badge/MCP-000000?style=for-the-badge)
 
 ---
 
@@ -66,6 +38,40 @@ Applicazioni personali in produzione su Raspberry Pi, esposte con **Cloudflare T
 ### 🎙️ Strumenti desktop locali
 
 **nispa-WhisperApp** — trascrizione automatica con Whisper in locale (GPU CUDA), editor sincronizzato audio/video e strumenti batch; frontend React, backend Flask.
+
+---
+
+## 🧭 Come lavoro
+
+Parto dai vincoli del dominio e li metto per iscritto: decisioni di architettura documentate come ADR, test scritti prima del codice sulle funzionalità più grosse, segreti fuori dai repository e gestiti con un password manager, deploy ripetibili con Ansible o container. Preferisco strumenti semplici e self-hosted a soluzioni sovradimensionate, e verifico sul campo prima di dichiarare una cosa finita.
+
+---
+
+## 🏗️ Stack Tecnologico
+
+**Microcontrollori & Hardware:**
+![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=Arduino)
+![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge&logo=Espressif)
+
+**Linguaggi & Frameworks:**
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=PHP)
+![Symfony](https://img.shields.io/badge/Symfony-000000?style=for-the-badge&logo=Symfony)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=Node.js)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=TypeScript)
+![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=Vue.js&logoColor=white)
+![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=Angular)
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=Flutter&logoColor=white)
+
+**Protocolli & Infrastrutture:**
+![MQTT](https://img.shields.io/badge/MQTT-660066?style=for-the-badge)
+![OPC--UA](https://img.shields.io/badge/OPC--UA-0066CC?style=for-the-badge)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=Docker)
+![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=for-the-badge&logo=Ansible)
+![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-A22846?style=for-the-badge&logo=RaspberryPi)
+![Cloudflare](https://img.shields.io/badge/Cloudflare%20Tunnel-F38020?style=for-the-badge&logo=Cloudflare&logoColor=white)
+![MCP](https://img.shields.io/badge/MCP-000000?style=for-the-badge)
 
 ---
 
@@ -143,4 +149,3 @@ Automazione e indicizzazione di contenuti.
 
 ![Made with ❤️ by Dario Schiavano](https://img.shields.io/badge/Made%20with-%E2%9D%A4%EF%B8%8F%20by%20Dario%20Schiavano-blue)
 
-<!-- Forza aggiornamento -->

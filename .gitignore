@@ -1,33 +1,11 @@
-# Editor history
-.history/
-
 # macOS
 .DS_Store
 .AppleDouble
 .LSOverride
-*.swp
-*.swo
-*~
 
-# IDE
+# Editor
+.history/
 .vscode/
 .idea/
-*.sublime-project
-*.sublime-workspace
-
-# Environment
-.env
-.env.local
-.env.*.local
-
-# Dependencies
-node_modules/
-vendor/
-
-# Build/Cache
-dist/
-build/
-.cache/
-
-# OS
-Thumbs.db
+*.swp
+*~

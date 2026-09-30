@@ -2,13 +2,19 @@
 
 IoT & Full Stack Developer | Embedded Systems | Backend Services | AI Tooling
 
-Sviluppo soluzioni integrate che combinano **embedded systems**, **IoT**, **backend services** e **automazione con agenti AI**. Negli ultimi mesi il baricentro si è spostato verso piattaforme operative per il monitoraggio di impianti, app offline-first per il campo e strumenti che rendono ripetibile il lavoro con gli agenti AI.
+Sviluppo soluzioni integrate che combinano **embedded systems**, **IoT**, **backend services** e **automazione con agenti AI**. Dopo anni su MES e IoT industriale, il baricentro si è spostato verso piattaforme operative per il monitoraggio di impianti, app offline-first per il campo e strumenti che rendono ripetibile il lavoro con gli agenti AI.
 
 ---
 
-## 🎯 Focus degli ultimi mesi
+## 🎯 Su cosa ho lavorato
 
-Gran parte del lavoro recente vive in repository privati: qui ne descrivo l'obiettivo e le scelte tecniche, senza codice né dati.
+Gran parte del lavoro vive in repository privati: qui ne descrivo l'obiettivo e le scelte tecniche, senza codice né dati.
+
+### 🏭 Software per l'industria e IoT industriale
+
+Sviluppo full stack di applicazioni per la produzione manifatturiera: backend **Symfony/PHP**, frontend **Angular** con test end-to-end, rilasci containerizzati con **Docker**, integrazione con sistemi gestionali esterni tramite API REST.
+
+Sul fronte IoT, un **middleware universale per l'acquisizione dati industriale**: architettura a driver intercambiabili in Node.js/TypeScript che espone un'unica interfaccia verso macchinari e PLC di produttori diversi, con supporto ai protocolli industriali in uso (**Modbus**, **OPC-UA** e altri), lettura e scrittura normalizzate e simulazione dei dispositivi per i test. A corredo, firmware su **Raspberry Pi** per l'acquisizione sul campo.
 
 ### 📡 Piattaforme operative per impianti fotovoltaici
 
@@ -66,6 +72,7 @@ Parto dai vincoli del dominio e li metto per iscritto: decisioni di architettura
 
 **Protocolli & Infrastrutture:**
 ![MQTT](https://img.shields.io/badge/MQTT-660066?style=for-the-badge)
+![Modbus](https://img.shields.io/badge/Modbus-4B5563?style=for-the-badge)
 ![OPC--UA](https://img.shields.io/badge/OPC--UA-0066CC?style=for-the-badge)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=Docker)
 ![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=for-the-badge&logo=Ansible)

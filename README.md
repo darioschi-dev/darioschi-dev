@@ -28,14 +28,15 @@ App **Flutter** per tecnici sul campo con architettura offline-first, affiancata
 
 Il filone più ampio degli ultimi mesi: rendere il lavoro con gli agenti AI **ripetibile, governato e sicuro**.
 
-- **agent-toolkit** — control plane per connector, server MCP, skill e profili, con CLI di bootstrap e verifica (doctor) per avere lo stesso ambiente su macOS e Ubuntu; routing dei modelli, regole comuni e registro di lavoro condiviso tra agenti.
-- **Connettori MCP** per Google Tasks, Passbolt (sola lettura) ed export ChatGPT: CLI, libreria Python e server MCP sullo stesso codice, gestiti con `uv`.
+- **agent-toolkit** — control plane per connector, server MCP, skill e profili, con CLI di bootstrap e verifica (doctor) per avere lo stesso ambiente su macOS e Ubuntu; routing dei modelli, regole comuni e registro di lavoro condiviso tra agenti. Include un indice locale di contesto (dossier di lavoro, diari, issue e pull request di GitHub) interrogabile via MCP, con proposte di riconciliazione tra schede e issue, e un albero dei domini che dice quali controlli richiede ogni tipo di repository.
+- **Connettori MCP** per Google Tasks e Passbolt (sola lettura): CLI, libreria Python e server MCP sullo stesso codice, gestiti con `uv`.
 - **JARVIS** — assistente personale privato: quick capture di pensieri e arricchimento con LLM locale, API FastAPI e PWA.
 
 ### 🏠 Self-hosting su Raspberry Pi
 
 Applicazioni personali in produzione su Raspberry Pi, esposte con **Cloudflare Tunnel** senza aprire porte sul router:
 
+- **Bonsai** — irrigazione automatica con ESP32 (il firmware è pubblico, vedi sotto), dashboard Vue 3, backend Node.js con broker Mosquitto, storico su SQLite e aggiornamenti OTA del firmware.
 - **Ledger Home** — PWA per i conti familiari con import, categorie, dashboard ed export Excel.
 - **StudyOS** — piattaforma di studio con quiz a risposta multipla e ripetizione spaziata (SM-2), autenticazione, pannello admin e banche dati su SQLite.
 - **Personal Shopper AI** — ricerca parallela su più marketplace con ranking spiegato da LLM, con routing tra modelli cloud e fallback locale.
@@ -49,7 +50,7 @@ Applicazioni personali in produzione su Raspberry Pi, esposte con **Cloudflare T
 
 ## 🧭 Come lavoro
 
-Parto dai vincoli del dominio e li metto per iscritto: decisioni di architettura documentate come ADR, test scritti prima del codice sulle funzionalità più grosse, segreti fuori dai repository e gestiti con un password manager, deploy ripetibili con Ansible o container. Preferisco strumenti semplici e self-hosted a soluzioni sovradimensionate, e verifico sul campo prima di dichiarare una cosa finita.
+Parto dai vincoli del dominio e li metto per iscritto: decisioni di architettura documentate come ADR, test scritti prima del codice sulle funzionalità più grosse e messi alla prova con mutazioni (si rompe il codice di proposito e si verifica che un test diventi rosso), segreti fuori dai repository e gestiti con un password manager, deploy ripetibili con Ansible o container. Preferisco strumenti semplici e self-hosted a soluzioni sovradimensionate, e verifico sul campo prima di dichiarare una cosa finita.
 
 ---
 
@@ -128,18 +129,6 @@ Backend **Symfony**, integrazione **PayPal** e **Satispay**, dashboard per clien
 ![Symfony](https://img.shields.io/badge/backend-Symfony-black)
 ![Payments](https://img.shields.io/badge/payments-PayPal%20%7C%20Satispay-red)
 ![PHP](https://img.shields.io/badge/lang-PHP-777BB4)
-
----
-
-### 🤖 Bots & Tools
-
-#### 🔍 [telegram-search-bot](https://github.com/darioschi-dev/telegram-search-bot)
-Bot **Telegram** per ricerche avanzate in canali pubblici.  
-Automazione e indicizzazione di contenuti.
-
-![Telegram](https://img.shields.io/badge/platform-Telegram-0088cc)
-![Python](https://img.shields.io/badge/lang-Python-3776AB)
-![Bot](https://img.shields.io/badge/type-Bot%20API-yellow)
 
 ---
 
